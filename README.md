@@ -10,11 +10,28 @@
   - https://www.atlassian.com/ko
 
 - Github Repository만 사용
-  - `이슈` - 팀원에게 문제점, 개발건 역할분담
-  - `위키` - 프로젝트 위키 문서 생성
-  - ~~액션~~ - 프로젝트 소스 자동 배포 등
-  - `프로젝트` - 보통 칸반을 사용, 이슈 탭에 작성한 이슈들이 바로 디스플레이
+    - `이슈` - 팀원에게 문제점, 개발건 역할분담
+    - `위키` - 프로젝트 위키 문서 생성
+    - ~~액션~~ - 프로젝트 소스 자동 배포 등 
+    - `프로젝트` - 보통 칸반을 사용, 이슈 탭에 작성한 이슈들이 바로 디스플레이
 
+- Github 저장소 종류
+    - main : 배포용 완성된 리포지토리
+    - branch : 개발용(팀의 경우 각자 개발하는 리포지토리)
+
+- Branch 생성 작업 후 합치는 방법
+    1. main ▼ 클릭 > View all branches 선택
+    2. New branch 클릭 이름 적고 생성
+    3. 각자 작업(같은 소스를 건드리는 작업 피할 것)
+    4. Pull requests > New Pull request
+    5. 충돌발생 시 직접 소스해결 Resolve
+    6. Create Pull request 진행
+    7. Branch 작업 완료 후 brach 삭제버튼 생성 > 클릭하면 brach 리포지토리 삭제됨
+
+        ![alt text](image.png)
+
+    8. View all branches에서 수동 삭제 가능
+    
 ## 요구사항 정의
 
 [링크](./docs/PRD.md)
