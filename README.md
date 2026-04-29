@@ -19,6 +19,11 @@
     - main : 배포용 완성된 리포지토리
     - branch : 개발용(팀의 경우 각자 개발하는 리포지토리)
 
+- Branch 로컬 리포지토리로 클론은 명령어로 추천
+    ```powershell
+    > git clone --branch [브랜치명] [브랜치존재하는_깃헙리포지토리_주소]
+    ```
+
 - Branch 생성 작업 후 합치는 방법
     1. main ▼ 클릭 > View all branches 선택
     2. New branch 클릭 이름 적고 생성
