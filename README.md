@@ -26,5 +26,3 @@
 ## 화면설계
 
 [링크](./docs/Design.md)
-
-## Branch Test
